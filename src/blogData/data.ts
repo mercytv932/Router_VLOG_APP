@@ -31,4 +31,18 @@ export const blogs = [
     content:
       "Best practices for writing maintainable and readable JavaScript code.",
   },
+  {
+    id: 6,
+    slug: "understanding-react-components",
+    title: "Understanding React Components",
+    content:
+      "React components help you break a user interface into small, reusable pieces. They make applications easier to build, understand, and maintain.",
+  },
+  {
+    id: 7,
+    slug: "building-better-user-interfaces",
+    title: "Building Better User Interfaces",
+    content:
+      "Good user interfaces combine clear layouts, consistent design, responsive behavior, and simple interactions to create a better experience for users.",
+  },
 ];
