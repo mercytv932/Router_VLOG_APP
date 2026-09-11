@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2937;
+}
+
+/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -28,4 +40,33 @@
 
 .navbar button:hover {
   color: #dc2626;
+}
+
+/* Blog-Page */
+.blog-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.blog-page ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.blog-page li {
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: white;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.blog-page li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }

@@ -2,7 +2,7 @@ import { blogs } from "../blogData/data";
 import { Link } from "react-router-dom";
 function BlogPage() {
   return (
-    <div>
+    <div className="blog-page">
       <h2>Blog</h2>
       <ul>
         {blogs.map((blog) => (
