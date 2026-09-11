@@ -4,7 +4,7 @@ import { useAuth } from "../contexts/AuthContext";
 function NavBar() {
   const { isAuthenticated, logout } = useAuth();
   return (
-    <nav>
+    <nav className="navbar">
       <Link to="/">Home</Link>
       <Link to="/blog">Blog</Link>
 
