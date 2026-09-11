@@ -70,3 +70,22 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
+
+/* Blog-Post-Page */
+
+.blog-post-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.blog-post-page h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.blog-post-page p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b5563;
+}

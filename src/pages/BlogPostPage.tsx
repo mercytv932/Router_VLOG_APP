@@ -9,7 +9,7 @@ function BlogPostPage() {
   }
 
   return (
-    <div>
+    <div className="blog-post-page">
       <h2>{blog.title}</h2>
       <p>{blog.content}</p>
     </div>
