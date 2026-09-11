@@ -1,8 +1,31 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e5e7eb;
+  background: white;
 }
 
-body {
-  background-color: rgb(3, 3, 58);
+.navbar a {
+  text-decoration: none;
+  color: #374151;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #2563eb;
+}
+
+.navbar button {
+  border: none;
+  background: none;
+  font: inherit;
+  color: #374151;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  color: #dc2626;
 }

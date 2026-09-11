@@ -7,6 +7,7 @@ import LoginPage from "./pages/LoginPage";
 import NavBar from "./components/NavBar";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AdminPage from "./pages/AdminPage";
+import "./App.css";
 
 function App() {
   return (
