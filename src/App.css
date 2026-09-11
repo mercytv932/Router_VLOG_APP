@@ -89,3 +89,59 @@ body {
   line-height: 1.7;
   color: #4b5563;
 }
+
+/* Home-Page */
+
+.home-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 32px;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 3rem;
+
+  margin-bottom: 16px;
+}
+
+.home-page p {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+
+/* login-Page */
+
+.login-page {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 32px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.login-page h2 {
+  margin-bottom: 24px;
+  color: #4b5563;
+}
+
+.login-page button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background 2s ease,
+    transform 0.2s ease;
+}
+
+.login-page button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
