@@ -1,11 +1,11 @@
-
+import { useAuth } from "../contexts/AuthContext";
 
 function LoginPage() {
-  const handleClick = () => {};
+  const { login } = useAuth();
   return (
     <div>
       <h2>Login Page</h2>
-      <button onClick={handleClick}>Login</button>
+      <button onClick={login}>Login</button>
     </div>
   );
 }
