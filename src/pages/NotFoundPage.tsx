@@ -1,7 +1,8 @@
 function NotFoundPage() {
   return (
-    <div>
-      <h2>404 Page not Found!</h2>
+    <div className="not-found-page">
+      <h2>404 — Page not Found!</h2>
+      <p>Looks like this page got lost somewhere.</p>
     </div>
   );
 }
